@@ -2,7 +2,7 @@
 
 DROP DATABASE IF EXISTS SpotifyClone;
 
-CREATE SCHEMA IF NOT EXISTS SpotifyClone ;
+CREATE SCHEMA IF NOT EXISTS SpotifyClone;
 
 CREATE TABLE SpotifyClone.artista (
   artista_id INT NOT NULL AUTO_INCREMENT,
