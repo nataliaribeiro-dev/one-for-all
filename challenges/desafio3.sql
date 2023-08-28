@@ -1,5 +1,5 @@
 SELECT 
-    CONCAT(TRIM(u.nome), " ", TRIM(u.sobrenome)) AS pessoa_usuaria,
+    CONCAT(u.nome, " ", u.sobrenome) AS pessoa_usuaria,
     COUNT(hr.musica_id) AS musicas_ouvidas,
     ROUND(SUM(im.duração_seg) / 60, 2) AS total_minutos
 FROM
