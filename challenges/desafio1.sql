@@ -108,12 +108,12 @@ INSERT INTO SpotifyClone.artista (artista_id, nome_artista)
 INSERT INTO SpotifyClone.album (album_id, artista_id, nome_album, ano_lançamento) VALUES
 	('1', '1', 'Renaissance', '2022'),
 	('2', '2', 'Jazz', '1978'),
-	('3', '2', 'Hot space', '1982'),
-	('4', '3', 'Falso brilhante', '1998'),
+	('3', '2', 'Hot Space', '1982'),
+	('4', '3', 'Falso Brilhante', '1998'),
 	('5', '3', 'Vento de Maio', '2001'),
 	('6', '4', 'QVVJFA?', '2003'),
-	('7', '5', 'Somewhere far beyond', '2007'),
-	('8', '6', 'I put a spell on you', '2012');
+	('7', '5', 'Somewhere Far Beyond', '2007'),
+	('8', '6', 'I Put A Spell On You', '2012');
 
 INSERT INTO SpotifyClone.info_musicas (musica_id, nome_musica, album_id, artista_id, duração_seg) VALUES
 	('1', 'Break my soul', '1', '1', '279'),
