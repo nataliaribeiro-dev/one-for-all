@@ -125,7 +125,7 @@ INSERT INTO SpotifyClone.info_musicas (musica_id, nome_musica, album_id, artista
 	('7', 'O medo de amar é o medo de ser livre', '5', '3', '207'),
 	('8', 'Samba em Paris', '6', '4', '267'),
 	('9', 'The Bard\'s song', '7', '5', '244'),
-	('10', 'Feeling good', '7', '6', '100');
+	('10', 'Feeling Good', '7', '6', '100');
 
 INSERT INTO SpotifyClone.planos_detalhes (plano_id, categoria, valor_plano) VALUES
 	('1', 'gratuito', '0'),
